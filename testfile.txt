@@ -1,0 +1,5 @@
+Hello Cam
+
+This is a test to show you how git works
+
+WHy is your circle file a text file
