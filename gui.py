@@ -13,7 +13,9 @@ from tkinter import messagebox
 def calculate(num4):
     num4 = str(num4)
     bb.configure(text = num4) 
-
+    '''
+    issue im having now is how to call my class and  how to create a label for the new number
+    '''
 root = Tk()
 root.title("Circles")
 root.geometry('900x900')
