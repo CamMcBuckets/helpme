@@ -11,11 +11,7 @@ from tkinter import *
 from tkinter import messagebox
 
 def calculate(num4):
-    num4 = str(num4)
-    bb.configure(text = num4) 
-    '''
-    issue im having now is how to call my class and  how to create a label for the new number
-    '''
+    print('hello')
 root = Tk()
 root.title("Circles")
 root.geometry('900x900')
@@ -31,12 +27,24 @@ areaEnt= Entry(root)
 num1 = circum.get()
 num2 = rad.get()
 num3 = areaEnt.get()
-num4 = num1 + num2 + num3
+
+if(num1 != 0):
+    {
+        Circle.circumference(self, num1)
+        #button = Button(text = "Calculate!", command = calculate(num1))
+    }
+if (num2 != 0):
+    {
+        Circle.serRadius(num2)
+        #button = Button(text = "Calculate!", command = calculate(num2))
+    }
+if (num3 != 0):
+    {
+        Circle.area(num3)
+        #button = Button(text = "Calculate!", command = calculate(num3))
+    }
 bb = Label(text = " ")
 bb.grid(row = 5, column =1)
-
-button = Button(text = "Calculate!", command = calculate(num4))
-
 circum.grid(row = 4, column = 1, sticky = W, pady = 2)
 rad.grid(row = 2, column = 1, sticky = W, pady = 2)
 areaEnt.grid(row = 3, column = 1, sticky = W, pady = 2)
