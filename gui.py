@@ -8,27 +8,31 @@ circle.py.
 '''
 from circle import Circle
 from tkinter import *
+
+def calculate():
+    print('hello world')
+
 root = Tk()
-root.title("Mickey Mouse")
+root.title("Circles")
 root.geometry('900x900')
-lbl1 = Label(root, text = "Time to make your Mickey Mouse!", font = "serif 48 bold")
-leftEar = Label(root, text = "Please enter the diameter for your left ear!")
-head = Label(root, text = "Please enter the diameter for your head!")
-rightEar = Label(root, text = "Please enter the diameter for your right ear!")
-button = Button(text = "Calculate!" )
+lbl1 = Label(root, text = "Time to do some math!", font = "serif 48 bold")
+attCircum = Label(root, text = "To find the Circumference of your circle enter your Diameter here: ")
+radCircum = Label(root, text = "To find the Radius of your circle enter your Diameter here: ")
+area = Label(root, text = "To find the Area of your circle enter your Diameter here: ")
+button = Button(text = "Calculate!", command = calculate())
 
-leftEntry = Entry(root)
-rightEntry = Entry(root)
-headEntry = Entry(root)
+circum = Entry(root)
+rad = Entry(root)
+areaEnt= Entry(root)
 
-rightEntry.grid(row = 4, column = 1, sticky = W, pady = 2)
-leftEntry.grid(row = 2, column = 1, sticky = W, pady = 2)
-headEntry.grid(row = 3, column = 1, sticky = W, pady = 2)
+circum.grid(row = 4, column = 1, sticky = W, pady = 2)
+rad.grid(row = 2, column = 1, sticky = W, pady = 2)
+areaEnt.grid(row = 3, column = 1, sticky = W, pady = 2)
 
 lbl1.grid(row = 0, column = 0, sticky = W, pady = 2)
-leftEar.grid(row = 2, column = 0, sticky = W, pady = 2)
-head.grid(row = 3, column = 0, sticky = W, pady = 2)
-rightEar.grid(row = 4, column = 0, sticky = W, pady = 2)
+attCircum.grid(row = 2, column = 0, sticky = W, pady = 2)
+radCircum.grid(row = 3, column = 0, sticky = W, pady = 2)
+area.grid(row = 4, column = 0, sticky = W, pady = 2)
 button.grid(row = 5, column = 0, sticky = W)
 
 
