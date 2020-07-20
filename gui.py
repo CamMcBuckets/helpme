@@ -26,6 +26,10 @@ num1 = circum.get()
 num2 = rad.get()
 num3 = areaEnt.get()
 
+def calculate():
+    # default
+    return
+
 if num1 != "":
 
     circle1 = Circle(num1)
