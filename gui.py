@@ -30,18 +30,20 @@ num3 = areaEnt.get()
 
 if(num1 != 0):
     {
-        Circle.circumference(self, num1)
-        #button = Button(text = "Calculate!", command = calculate(num1))
+        num4 = Circle(num1)
+        Circle.area(num1)
     }
 if (num2 != 0):
     {
-        Circle.serRadius(num2)
-        #button = Button(text = "Calculate!", command = calculate(num2))
+        num5 = Circle(num2)
+        Circle.area(num2)
+
     }
 if (num3 != 0):
     {
+        num6 = Circle(num3)
         Circle.area(num3)
-        #button = Button(text = "Calculate!", command = calculate(num3))
+
     }
 bb = Label(text = " ")
 bb.grid(row = 5, column =1)

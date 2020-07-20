@@ -1,4 +1,4 @@
-class Circle:
+class Circle(object):
     def __init__(self, radius):
         self.radius = radius
         self.diameter = radius + radius
@@ -6,7 +6,7 @@ class Circle:
     def setRadius(self, radius):
         return self.radius
     def area(self, radius):
-        return self.area
+        return (self.radius *self.radius) * 3.14
     def diameter(self, radius):
         return self.diameter
     def circumference(self, diameter):
