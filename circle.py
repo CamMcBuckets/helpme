@@ -15,6 +15,3 @@ class Circle:
     def __str__ (self):
         self.s1 = str(self.circumference)
         return self.s1
-
-        
-circle = Circle(5)
