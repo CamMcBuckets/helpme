@@ -10,11 +10,6 @@ from circle import Circle
 from tkinter import *
 from tkinter import messagebox
 
-
-def calculate(num4):
-    print("hello")
-
-
 root = Tk()
 root.title("Circles")
 root.geometry("900x900")
