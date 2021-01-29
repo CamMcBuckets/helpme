@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/address_book.h
+person.h
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/person.h
+string
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/string
+vector
+-
+
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/main_functions.cpp
+iostream
+-
+string
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/string
+person.h
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/person.h
+main_functions.h
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/main_functions.h
+address_book.h
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/address_book.h
+
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/main_functions.h
+string
+-
+
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/person.h
+string
+/cygdrive/c/Users/camer/CLionProjects/cMurillo_assignment02/string
+
